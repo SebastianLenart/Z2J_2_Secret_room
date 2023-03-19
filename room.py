@@ -2,17 +2,18 @@ import pprint
 
 
 class Room:
-    def __init__(self):
+    def __init__(self, number_of_room):
+        self.number_of_room = number_of_room
         self.title = None
         self.described_sytuation = None
         self.described_room = None
         self.items_help_and_answer = dict()
 
-    def load_room(self, number_of_room):
+    def load_room(self):
         with open("rooms.txt", "r", encoding="utf8") as f:
             all_rooms = f.read()
-            one_room_start = all_rooms.find(f"#Room_{number_of_room}")
-            one_room_end = all_rooms.find(f"#END_ROOM_{number_of_room}") + len(f"#END_ROOM_{number_of_room}")
+            one_room_start = all_rooms.find(f"#Room_{self.number_of_room}")
+            one_room_end = all_rooms.find(f"#END_ROOM_{self.number_of_room}") + len(f"#END_ROOM_{self.number_of_room}")
             one_room = all_rooms[one_room_start:one_room_end].split("#")
             self.title = one_room[2].strip()
             self.described_sytuation = one_room[3].strip()
