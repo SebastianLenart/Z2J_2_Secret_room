@@ -1,0 +1,24 @@
+#Room_1
+#Piwnica
+#Ktos przez nieuwage zamknal Cie w piwnicy. W pewnym momencie od zbyt wysokiewgo cisnienia
+pęka rura z wodą. Musisz sie jak najszybciej wydostać, aby nie zatonąć. Nie masz czasu aby, zbyt długo myśleć. Rusz głową,
+rozejrzyj sie po pomieszczeniu i wykorzystaj dostępne przedmioty.
+#Piwnica posiada wiele różnych narzędzi, masz do dyspozycji siekiere, kluczyki, telefon, drabina.
+Z pomieszczenia mozna wyjsc na 2 sposoby, albo przez drzwi, które sa zamkniete i do których trzeba wejsc po wysokich i stromych schodach
+albo przez okno które znajduje sie wysoko.
+#drabina;dzieki niej możesz dosiegnąć do okna;brawo udało Ci sie dosiegnac do okna i wyjsc na zewnatrz przez okno.
+#siekiera;dzieki niej mozesz rozwalic drewniane drzwi;Podcza spróby zamachniecia, siekiera wyslizgnela sie z rąk i upadła jednocześnie sie rozwalając.
+#kluczki;otwierają niektore drzwi w domu; Niestety po wielu próbach oświadamiasz sobie, że żadne z tych kluczy nie pasuje do drzwi.
+#telefon;mozesz zadzwonic po pomoc;Okazuje sie, ze telefon jest rozładowany, a ładowarki nie ma w piwnicy.
+#END_ROOM_1
+#Room_2
+#Piwnica
+#Ktos przez nieuwage zamknal Cie w piwnicy. W pewnym momencie od zbyt wysokiewgo cisnienia
+pęka rura z wodą. Musisz sie jak najszybciej wydostać, aby nie zatonąć. Nie masz czasu aby, zbyt długo myśleć. Rusz głową,
+rozejrzyj sie po pomieszczeniu i wykorzystaj dostępne przedmioty.
+#Piwnica posiada wiele różnych narzędzi, masz do dyspozycji siekiere, kluczyki, telefon, drabina.
+Z pomieszczenia mozna wyjsc na 2 sposoby, albo przez drzwi, które sa zamkniete i do których trzeba wejsc po wysokich i stromych schodach
+albo przez okno które znajduje sie wysoko.
+#drabina;dzieki niej możesz dosiegnąć do okna;brawo udało Ci sie dosiegnac do okna i wyjsc na zewnatrz przez okno.
+#kluczki;otwierają niektore drzwi w domu; Niestety po wielu próbach oświadamiasz sobie, że żadne z tych kluczy nie pasuje do drzwi.
+#END_ROOM_2
