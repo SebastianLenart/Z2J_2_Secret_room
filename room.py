@@ -8,6 +8,7 @@ class Room:
         self.described_sytuation = None
         self.described_room = None
         self.items_help_and_answer = dict()
+        self.good_answer = None
 
     def load_room(self):
         with open("rooms.txt", "r", encoding="utf8") as f:
@@ -18,8 +19,9 @@ class Room:
             self.title = one_room[2].strip()
             self.described_sytuation = one_room[3].strip()
             self.described_room = one_room[4].strip()
+            self.good_answer = one_room[5].strip()
             # od 5 do len(one_room) = 10 wiec do 9 bo liczenie od 0
-            for number in (range(5, len(one_room) - 1)):  # kazdy pokoj moze miec rozna liczbe przedmiotow
+            for number in (range(6, len(one_room) - 1)):  # kazdy pokoj moze miec rozna liczbe przedmiotow
                 item, help, answer = one_room[number].strip().split(";")
                 self.items_help_and_answer[item] = [help, answer]
 
@@ -40,3 +42,6 @@ class Room:
 
     def get_items_and_answer(self):
         return [{key: value[1]} for key, value in self.items_help_and_answer.items()]
+
+    def get_answer(self):
+        return self.good_answer
